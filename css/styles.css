@@ -20,6 +20,7 @@ img {
 }
 .header-nav,
 .address,
+.footer,
 .container {
   display: flex;
   align-items: center;
@@ -246,16 +247,15 @@ img {
 }
 
 .fourth-section-item {
+  width: calc((100% - 48px) / 3);
   width: 48%;
   margin-bottom: 20px;
   text-align: center;
-  width: calc((100% - 48px) / 3);
 }
 .fourth-section-content {
-  padding: 32px 0px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .fourth-section-item-title {
   font-size: 20px;

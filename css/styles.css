@@ -12,24 +12,80 @@ body {
 
 .header,
 .footer {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+.header-nav,
+.address,
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+.header-nav ul,
+.contacts {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Dodaj do pliku styles.css */
+.header {
+  border-bottom: 1px solid #e7e9fc;
   background-color: #f8f8f8;
   padding: 20px 0;
 }
 
-.header-nav,
-.address,
-.footer .container {
+.head-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-nav ul,
-.contacts {
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav .logo {
+  margin-right: 30px;
+}
+
+.header-nav ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header-nav ul li {
+  margin-right: 15px;
+}
+
+.address {
   display: flex;
+}
+
+.address .contacts {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.address .contacts li {
+  margin-left: 15px;
+}
+
+.address-contacts {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.address-contacts:hover,
+.address-contacts:focus {
+  color: #404bbf;
 }
 
 .header-nav ul li,
@@ -41,6 +97,7 @@ body {
 .address-contacts,
 .footer .logo,
 .footer-item-role {
+  margin-right: 30px;
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
@@ -75,13 +132,14 @@ body {
 }
 
 .first-section-title {
+  margin: auto;
   font-size: 48px;
   margin-bottom: 20px;
   max-width: 496px;
-  margin: auto;
 }
 
 .first-section-button {
+  margin: auto;
   background-color: #4d5ae5;
   display: block;
   min-width: 169px;
@@ -92,7 +150,6 @@ body {
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
-  margin: auto;
 }
 .first-section-button:focus {
   background-color: #404bbf;

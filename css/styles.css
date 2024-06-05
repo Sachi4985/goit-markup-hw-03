@@ -9,7 +9,9 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.logo {
+  margin-right: 76px;
+}
 .header,
 .footer {
   border-bottom: 1px solid #e7e9fc;
@@ -29,17 +31,20 @@ body {
   margin: 0;
   padding: 0;
 }
-/* Dodaj do pliku styles.css */
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #f8f8f8;
   padding: 20px 0;
 }
-
+.menu-nav {
+  gap: 40px;
+}
 .head-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -92,7 +97,12 @@ body {
 .contacts li {
   margin-right: 15px;
 }
-
+.link-nav {
+  padding: 24px 0;
+}
+.address {
+  gap: 40px;
+}
 .header-nav .link-nav,
 .address-contacts,
 .footer .logo,

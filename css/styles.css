@@ -172,7 +172,7 @@ img {
 .second-section {
   padding: 120px 0;
 }
-.hidden {
+.visually-hidden {
   display: none;
 }
 .second-section-list {

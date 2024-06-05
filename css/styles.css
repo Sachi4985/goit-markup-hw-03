@@ -180,7 +180,7 @@ img {
   gap: 24px;
 }
 .second-section-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .second-section-item-title {
   font-size: 24px;
@@ -200,17 +200,19 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .third-section-item {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.second-section-item-container {
+.third-section-content {
   padding: 32px 16px;
 }
 .third-section-item-title {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .third-section-item-role {
   text-align: center;
 }

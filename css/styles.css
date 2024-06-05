@@ -180,18 +180,16 @@ img {
   gap: 24px;
 }
 .second-section-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .second-section-item-title {
   font-size: 24px;
   margin-bottom: 8px;
 }
-
 .second-section-item-desc {
   font-size: 16px;
   color: #666;
 }
-
 .third-section {
   padding: 120px 0;
 }

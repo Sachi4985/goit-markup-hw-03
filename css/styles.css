@@ -264,9 +264,9 @@ img {
 }
 
 .fourth-section-item-role {
+  margin-bottom: 8px;
   font-size: 16px;
   color: #999;
-  margin-bottom: 8px;
 }
 
 .footer-item-role {
@@ -279,6 +279,8 @@ img {
   padding: 100px 0;
 }
 .logo {
-  display: inline-block;
   margin-bottom: 16px;
+}
+.logo .a {
+  display: inline-block;
 }

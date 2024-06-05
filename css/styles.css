@@ -165,17 +165,22 @@ body {
 .first-section-button:hover {
   background-color: #404bbf;
 }
-
+.second-section {
+  padding: 120px 0;
+}
 .visually-hidden {
   display: none;
 }
-.second-section {
-  padding: 60px 0;
+.second-section-list {
+  display: flex;
+  gap: 24px;
 }
-
+.second-section-item {
+  width: calc((100% - 72px) / 4);
+}
 .second-section-item-title {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .second-section-item-desc {

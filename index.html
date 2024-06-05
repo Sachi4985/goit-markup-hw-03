@@ -16,10 +16,10 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
-    <header class="head">
-      <div class="head-container">
-        <nav>
+  <body>
+    <header class="header">
+      <div class="head-container container">
+        <nav class="header-nav">
           <a href="./index.html" class="logo"
             >Web<span class="span-header-logo">Studio</span></a
           >
@@ -46,155 +46,173 @@
       </div>
     </header>
     <main>
-      <section class="first-block">
-        <h1 class="header">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-order-service">
-          Order Service
-        </button>
+      <section class="first-section">
+        <div class="container">
+          <h1 class="first-section-title">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="first-section-button">
+            Order Service
+          </button>
+        </div>
       </section>
 
-      <section class="second-block">
-        <h2>nagłowek2</h2>
-        <ul>
-          <li>
-            <h3 class="header-second-section">Strategy</h3>
-            <p class="paragraph-second-section">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-second-section">Punctuality</h3>
-            <p class="paragraph-second-section">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-second-section">Diligence</h3>
-            <p class="paragraph-second-section">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-second-section">Technologies</h3>
-            <p class="paragraph-second-section">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="second-section">
+        <div class="container">
+          <h2>nagłowek2</h2>
+          <ul class="visually-hidden">
+            <li>
+              <h3 class="second-section-item-title">Strategy</h3>
+              <p class="second-section-item-desc">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="second-section-item-title">Punctuality</h3>
+              <p class="second-section-item-desc">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="second-section-item-title">Diligence</h3>
+              <p class="second-section-item-desc">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="second-section-item-title">Technologies</h3>
+              <p class="second-section-item-desc">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="our-team-section">
-        <h2 class="second-header">Our Team</h2>
-        <ul>
-          <li class="section-team-list">
-            <img
-              src="./images/1.jpg"
-              alt="man-presenting-something"
-              height="260"
-              width="264"
-            />
-            <h3 class="header-second-section">Mark Guerrero</h3>
-            <p class="paragraph-second-section">Product Designer</p>
-          </li>
-          <li class="section-team-list">
-            <img
-              src="./images/2.jpg"
-              alt="man-smiling"
-              height="260"
-              width="264"
-            />
-            <h3 class="header-second-section">Tom Ford</h3>
-            <p class="paragraph-second-section">Frontend Developer</p>
-          </li>
-          <li class="section-team-list">
-            <img
-              src="./images/3.jpg"
-              alt="women-smiling"
-              height="260"
-              width="264"
-            />
-            <h3 class="header-second-section">Camila Garcia</h3>
-            <p class="paragraph-second-section">Marketing</p>
-          </li>
-          <li class="section-team-list">
-            <img
-              src="./images/4.jpg"
-              alt="confident-handsome-guy-posing"
-              height="260"
-              width="264"
-            />
-            <h3 class="header-second-section">Daniel Wilson</h3>
-            <p class="paragraph-second-section">UI Designer</p>
-          </li>
-        </ul>
+      <section class="third-section">
+        <div class="container">
+          <h2 class="third-section-title">Our Team</h2>
+          <ul class="third-section-list">
+            <li class="third-section-item">
+              <div class="third-section-content">
+                <img
+                  src="./images/1.jpg"
+                  alt="man-presenting-something"
+                  height="260"
+                  width="264"
+                />
+                <h3 class="third-section-item-title">Mark Guerrero</h3>
+                <p class="third-section-item-role">Product Designer</p>
+              </div>
+            </li>
+            <li class="third-section-item">
+              <img
+                src="./images/2.jpg"
+                alt="man-smiling"
+                height="260"
+                width="264"
+              />
+              <h3 class="third-section-item-title">Tom Ford</h3>
+              <p class="third-section-item-role">Frontend Developer</p>
+            </li>
+            <li class="third-section-item">
+              <img
+                src="./images/3.jpg"
+                alt="women-smiling"
+                height="260"
+                width="264"
+              />
+              <h3 class="third-section-item-title">Camila Garcia</h3>
+              <p class="third-section-item-role">Marketing</p>
+            </li>
+            <li class="third-section-item">
+              <img
+                src="./images/4.jpg"
+                alt="confident-handsome-guy-posing"
+                height="260"
+                width="264"
+              />
+              <h3 class="third-section-item-title">Daniel Wilson</h3>
+              <p class="third-section-item-role">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="our-portfolio-section">
-        <h2 class="second-header">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/banking-app.jpg" alt="banking-app" width="360" />
-            <h3 class="header-second-section">Banking App</h3>
-            <p class="paragraph-second-section">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/cashles-payment.jpg"
-              alt="cashles-payment"
-              width="360"
-            />
-            <h3 class="header-second-section">Cashless Payment</h3>
-            <p class="paragraph-second-section">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/meditation-app.jpg"
-              alt="medidation-app"
-              width="360"
-            />
-            <h3 class="header-second-section">Meditation App</h3>
-            <p class="paragraph-second-section">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/taxi-service.jpg"
-              alt="taxi-service"
-              width="360"
-            />
-            <h3 class="header-second-section">Taxi Service</h3>
-            <p class="paragraph-second-section">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/screen-illustration.jpg"
-              alt="screen illustration"
-              width="360"
-            />
-            <h3 class="header-second-section">Screen Illustrations</h3>
-            <p class="paragraph-second-section">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/online-courses.jpg"
-              alt="online-courses"
-              width="360"
-            />
-            <h3 class="header-second-section">Online Courses</h3>
-            <p class="paragraph-second-section">Marketing</p>
-          </li>
-        </ul>
+      <section class="fourth-section">
+        <div class="container">
+          <h2 class="fourth-section-title">Our Portfolio</h2>
+          <ul class="fourth-section-list">
+            <li class="fourth-section-item">
+              <img
+                src="./images/banking-app.jpg"
+                alt="banking-app"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Banking App</h3>
+              <p class="fourth-section-item-role">App</p>
+            </li>
+            <li class="fourth-section-item">
+              <img
+                src="./images/cashles-payment.jpg"
+                alt="cashles-payment"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Cashless Payment</h3>
+              <p class="fourth-section-item-role">Marketing</p>
+            </li>
+            <li class="fourth-section-item">
+              <img
+                src="./images/meditation-app.jpg"
+                alt="medidation-app"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Meditation App</h3>
+              <p class="fourth-section-item-role">App</p>
+            </li>
+            <li class="fourth-section-item">
+              <img
+                src="./images/taxi-service.jpg"
+                alt="taxi-service"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Taxi Service</h3>
+              <p class="fourth-section-item-role">Marketing</p>
+            </li>
+            <li class="fourth-section-item">
+              <img
+                src="./images/screen-illustration.jpg"
+                alt="screen illustration"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Screen Illustrations</h3>
+              <p class="fourth-section-item-role">Design</p>
+            </li>
+            <li class="fourth-section-item">
+              <img
+                src="./images/online-courses.jpg"
+                alt="online-courses"
+                width="360"
+              />
+              <h3 class="fourth-section-item-title">Online Courses</h3>
+              <p class="fourth-section-item-role">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        >Web<span class="span-footer-logo">Studio</span></a
-      >
-      <p class="footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing &amp; growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >Web<span class="span-footer-logo">Studio</span></a
+        >
+        <p class="footer-item-role">
+          Increase the flow of customers and sales for your business with
+          digital marketing &amp; growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

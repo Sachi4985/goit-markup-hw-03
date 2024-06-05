@@ -9,9 +9,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.logo {
-  margin-right: 76px;
-}
+
 .header,
 .footer {
   border-bottom: 1px solid #e7e9fc;
@@ -53,7 +51,7 @@ body {
 }
 
 .header-nav .logo {
-  margin-right: 30px;
+  margin-right: 76px;
 }
 
 .header-nav ul {
@@ -80,6 +78,7 @@ body {
 
 .address .contacts li {
   margin-left: 15px;
+  gap: 40px;
 }
 
 .address-contacts {
@@ -100,9 +99,7 @@ body {
 .link-nav {
   padding: 24px 0;
 }
-.address {
-  gap: 40px;
-}
+
 .header-nav .link-nav,
 .address-contacts,
 .footer .logo,

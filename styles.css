@@ -1,162 +1,146 @@
-/* Modern Normalize should be linked to from the HTML */
-@import url("modern-normalize.min.css");
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* Header styles */
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  margin-right: 76px;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu-link {
-  padding: 24px 0;
-  text-decoration: none;
-  color: inherit;
-}
-
-.contacts-list {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* First section styles */
+/* Pierwsza sekcja */
 .first-section {
   padding: 188px 0;
 }
 
-.first-section-title {
-  max-width: 496px;
-  margin: 0 auto;
-  text-align: center;
+.first-section .container {
+  /* domyślna klasa container */
 }
 
-.first-section-button {
+.first-header {
+  max-width: 496px;
+}
+
+.first-button {
   display: block;
-  margin: 24px auto 0;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: #4d5ae5;
+  background-color: var(--button-bg-color, #4d5ae5);
   border-radius: 4px;
   cursor: pointer;
-  color: #fff;
 }
 
-/* Second section styles */
+/* Druga sekcja */
 .second-section {
   padding: 120px 0;
+}
+
+.second-section .container {
+  /* domyślna klasa container */
 }
 
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
   padding: 0;
+  margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
-.second-section-list {
+.second-list {
   display: flex;
   gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.second-section-item {
+.list-item {
   width: calc((100% - 72px) / 4);
 }
 
-.second-section-item-title {
+.list-header {
   margin-bottom: 8px;
 }
 
-/* Third section styles */
+.list-paragraph {
+  /* styl akapitu */
+}
+
+/* Trzecia sekcja */
 .third-section {
   padding: 120px 0;
 }
 
-.third-section-title {
+.third-section .container {
+  /* domyślna klasa container */
+}
+
+.third-header {
   margin-bottom: 72px;
 }
 
-.third-section-list {
+.third-list {
   display: flex;
   gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.third-section-item {
+.third-list-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
-.third-section-content {
+.employee-info {
   padding: 32px 16px;
-  text-align: center;
 }
 
-.third-section-item-title {
+.employee-name {
+  text-align: center;
   margin-bottom: 8px;
 }
 
-/* Fourth section styles */
+.employee-position {
+  text-align: center;
+}
+
+/* Czwarta sekcja */
 .fourth-section {
   padding: 120px 0;
 }
 
-.fourth-section-title {
+.fourth-section .container {
+  /* domyślna klasa container */
+}
+
+.fourth-header {
   margin-bottom: 72px;
 }
 
-.fourth-section-list {
+.fourth-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.fourth-section-item {
-  flex: 1 1 calc((100% - 48px) / 3);
+.app-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.app-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.app-name {
+  margin-bottom: 8px;
+}
+
+.app-category {
+  /* styl kategorii aplikacji */
+}
+
+/* Stopka */
+.footer {
+  padding: 100px 0;
+}
+
+.footer .container {
+  /* domyślna klasa container */
+}
+
+.footer-link {
+  /* styl linku w stopce */
 }

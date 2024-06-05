@@ -42,42 +42,69 @@ body {
 .footer .logo,
 .footer-item-role {
   text-decoration: none;
-  color: #333;
+  color: #2e2f42;
   font-weight: 500;
 }
-
+.span-header-logo,
+.span-footer-logo {
+  color: #4d5ae5;
+}
+.link-nav:hover {
+  color: #404bbf;
+}
+.link-nav:focus {
+  color: #404bbf;
+}
 .header-nav .logo,
 .footer .logo {
   font-weight: 700;
   font-size: 24px;
 }
-
-.span-header-logo,
-.span-footer-logo {
-  color: #ff6b08;
+.address-contacts:hover {
+  color: #404bbf;
+}
+.address-contacts:focus {
+  color: #404bbf;
 }
 
 .first-section {
-  background: url("../images/hero-bg.jpg") no-repeat center/cover;
+  background-color: #2e2f42;
   color: #fff;
   text-align: center;
-  padding: 100px 0;
+  padding: 188px 0;
 }
 
 .first-section-title {
   font-size: 48px;
   margin-bottom: 20px;
+  max-width: 496px;
+  margin: auto;
 }
 
 .first-section-button {
-  background-color: #ff6b08;
+  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
   border: none;
   padding: 15px 30px;
   font-size: 18px;
   color: #fff;
   cursor: pointer;
+  border-radius: 4px;
+  margin: auto;
+}
+.first-section-button:focus {
+  background-color: #404bbf;
 }
 
+.first-section-button:hover {
+  background-color: #404bbf;
+}
+
+.visually-hidden {
+  display: none;
+}
 .second-section {
   padding: 60px 0;
 }

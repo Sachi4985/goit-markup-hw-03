@@ -191,6 +191,7 @@ img {
 .second-section-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+
 .second-section-item-title {
   font-size: 24px;
   margin-bottom: 8px;
@@ -253,6 +254,7 @@ img {
   text-align: center;
 }
 .fourth-section-content {
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -264,7 +266,6 @@ img {
 }
 
 .fourth-section-item-role {
-  margin-bottom: 8px;
   font-size: 16px;
   color: #999;
 }
@@ -279,8 +280,6 @@ img {
   padding: 100px 0;
 }
 .logo {
-  margin-bottom: 16px;
-}
-.logo .a {
   display: inline-block;
+  margin-bottom: 16px;
 }

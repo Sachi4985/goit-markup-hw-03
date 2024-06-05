@@ -1,134 +1,162 @@
-.body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #434455;
-}
-img {
-  display: block;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+/* Modern Normalize should be linked to from the HTML */
+@import url("modern-normalize.min.css");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.span-header-logo {
-  color: #2e2f42;
-}
-.link-nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.link-nav:hover {
-  color: #404bbf;
-}
-.link-nav:focus {
-  color: #404bbf;
-}
-.addres {
-  font-style: normal;
-  color: #434455;
-}
-.addres-contacts {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.addres-contacts:hover {
-  color: #404bbf;
-}
-.addres-contacts:focus {
-  color: #404bbf;
-}
-
-.first-block {
-  background-color: #2e2f42;
-}
-.head {
+/* Header styles */
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
-.head-container {
-  display: flex;
-}
-.container {
+
+.header-container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.header {
-  font-size: 56px;
-  line-height: 1.07;
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  padding: 24px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* First section styles */
+.first-section {
+  padding: 188px 0;
+}
+
+.first-section-title {
+  max-width: 496px;
+  margin: 0 auto;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
 }
-.button-order-service {
+
+.first-section-button {
+  display: block;
+  margin: 24px auto 0;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  border-radius: 4px;
   cursor: pointer;
-}
-.button-order-service:focus {
-  background-color: #404bbf;
+  color: #fff;
 }
 
-.button-order-service:hover {
-  background-color: #404bbf;
-}
-.header-second-section {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.paragraph-second-section {
-  line-height: 1.5;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.our-team-section {
-  background-color: #f4f4fd;
+/* Second section styles */
+.second-section {
+  padding: 120px 0;
 }
 
-.second-header {
-  font-family: "Roboto";
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.second-section-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.second-section-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.second-section-item-title {
+  margin-bottom: 8px;
+}
+
+/* Third section styles */
+.third-section {
+  padding: 120px 0;
+}
+
+.third-section-title {
+  margin-bottom: 72px;
+}
+
+.third-section-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.third-section-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.third-section-content {
+  padding: 32px 16px;
   text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
-.our-portfolio-section {
-  background-color: #ffffff;
+.third-section-item-title {
+  margin-bottom: 8px;
 }
 
-.footer {
-  background-color: #2e2f42;
+/* Fourth section styles */
+.fourth-section {
+  padding: 120px 0;
 }
-.footer-paragraph {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+
+.fourth-section-title {
+  margin-bottom: 72px;
 }
-.span-footer-logo {
-  color: #f4f4fd;
+
+.fourth-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.section-team-list {
-  background-color: #ffffff;
+
+.fourth-section-item {
+  flex: 1 1 calc((100% - 48px) / 3);
 }

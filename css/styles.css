@@ -217,13 +217,13 @@ img {
   text-align: center;
 }
 .fourth-section {
-  padding: 60px 0;
+  padding: 120px 0 120px 0;
 }
 
 .fourth-section-title {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 72px;
 }
 
 .fourth-section-list {
@@ -232,14 +232,21 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .fourth-section-item {
   width: 48%;
   margin-bottom: 20px;
   text-align: center;
+  width: calc((100% - 48px) / 3);
 }
-
+.fourth-section-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .fourth-section-item-title {
   font-size: 20px;
   margin-top: 10px;
@@ -249,6 +256,7 @@ img {
 .fourth-section-item-role {
   font-size: 16px;
   color: #999;
+  margin-bottom: 8px;
 }
 
 .footer-item-role {

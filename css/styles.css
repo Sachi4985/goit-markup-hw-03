@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 
 .container {
   max-width: 1200px;
@@ -78,9 +81,10 @@ body {
 
 .address .contacts li {
   margin-left: 15px;
+}
+.contacts {
   gap: 40px;
 }
-
 .address-contacts {
   text-decoration: none;
   color: #2e2f42;

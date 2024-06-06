@@ -145,6 +145,7 @@ a {
 }
 
 .first-section-title {
+  text-align: center;
   margin: auto;
   font-size: 48px;
   margin-bottom: 20px;
@@ -195,19 +196,22 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .second-section-item-title {
-  text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 .second-section-item-desc {
   font-size: 16px;
-  color: #666;
+  color: #434455;
   margin-bottom: 8px;
 }
 .third-section {
+  background-color: #f4f4fd;
   padding: 120px 0;
 }
 .third-section-title {
+  font-weight: 700px;
+  font-size: 36px;
+  color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -259,11 +263,12 @@ a {
   border-top: none;
 }
 .fourth-section-item-title {
+  margin-bottom: 8px;
   font-size: 20px;
 }
 
 .fourth-section-item-role {
-  margin-bottom: 8px;
+  margin-bottom: 32px;
   font-size: 16px;
   color: #999;
 }

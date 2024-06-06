@@ -21,8 +21,7 @@ img {
 }
 .header-nav,
 .address,
-.footer,
-.container {
+.footer {
   display: flex;
   align-items: center;
 }
@@ -153,9 +152,10 @@ a {
 }
 
 .first-section-button {
+  display: block;
   margin: auto;
   background-color: #4d5ae5;
-  display: block;
+
   min-width: 169px;
   height: 56px;
   border: none;
@@ -195,6 +195,7 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .second-section-item-title {
+  text-align: center;
   font-size: 24px;
   margin-bottom: 8px;
 }
@@ -207,6 +208,7 @@ a {
   padding: 120px 0;
 }
 .third-section-title {
+  text-align: center;
   margin-bottom: 72px;
 }
 .third-section-list {

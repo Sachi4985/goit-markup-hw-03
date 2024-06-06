@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -217,11 +222,12 @@ a {
 }
 .third-section-list {
   display: flex;
+  text-align: center;
   gap: 24px;
 }
 
 .third-section-item {
-  text-align: center;
+  background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }

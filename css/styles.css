@@ -251,9 +251,6 @@ a {
   column-gap: 24px;
   row-gap: 48px;
 }
-.fourth-section-item:first-child {
-  width: calc((100% - 48px) / 3);
-}
 
 .fourth-section-item {
   width: calc((100% - 48px) / 3);
